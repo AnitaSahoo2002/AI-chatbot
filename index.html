@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Forever Chat</title>
+  <style>
+    body { font-family: sans-serif; background: #f4f4f4; padding: 2rem; }
+    #chatbox { max-width: 600px; margin: auto; padding: 1rem; background: white; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .message { margin-bottom: 1rem; }
+    .user { font-weight: bold; }
+    .bot { color: green; }
+    input { width: 70%; padding: 0.5rem; }
+    button { padding: 0.5rem; }
+  </style>
+</head>
+<body>
+  <div id="chatbox"></div>
+  <input id="input" placeholder="Type a message..." />
+  <button onclick="sendMessage()">Send</button>
+  <script src="script.js"></script>
+</body>
+</html>
