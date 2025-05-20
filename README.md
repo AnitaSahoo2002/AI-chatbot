@@ -55,3 +55,15 @@ Make sure you have [Node.js](https://nodejs.org/) and [Ollama](https://ollama.co
 npm install express cors body-parser axios
 ```
 npm install -g nodemon
+ollama run my-ai-bot
+ollama create my-ai-bot -f Modelfile
+nodemon backend/server.js
+### 3. Start Backend Server
+```
+nodemon backend/server.js
+```
+
+### 4. Launch the Chat UI
+Just open frontend/public/index.html in your browser.
+
+🧠 How it Works
