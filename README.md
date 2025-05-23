@@ -66,4 +66,41 @@ nodemon backend/server.js
 ### 4. Launch the Chat UI
 Just open frontend/public/index.html in your browser.
 
-🧠 How it Works
+## 🧠 How it Works
+
+- You type a message in the chat UI.
+- The frontend sends the message to the Express backend (`/chat` endpoint).
+- The backend sends this input to Ollama’s local LLM.
+- The response is returned and displayed in a cute message bubble in the chat window.
+
+---
+
+## 🖌️ Theme and Styling
+
+The theme is inspired by a soft blend of **pink and olive green**, making the bot feel friendly, comforting, and aesthetic. The UI features:
+
+- 🎀 Rounded chat bubbles  
+- 🤖 Cute bot avatar  
+- 📱 Responsive layout  
+- 🎨 Soft gradients & pastel palette
+
+---
+
+## 📸 Preview
+
+*(Add your screenshot or UI preview here)*
+
+---
+
+## 📚 License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
+
+## ✨ Credits
+
+- 💻 Built by [Your Name]  
+- 💡 Inspired by modern chatbot UX trends and pastel color schemes  
+- 🤖 Powered by Ollama LLMs
+
